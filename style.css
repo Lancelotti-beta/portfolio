@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono:wght@400;700 & display=swap');
+
+/*
+#252323 - "marrom"
+#70798C - "azul"
+#F5F1ED - "branco"
+#DAD2BC - "meio bage"
+#A99985 - "bage para marrom"
+
+============ Dark ===========================
+--cultured: #f8f9faff;
+--cultured-2: #e9ecefff;
+--gainsboro: #dee2e6ff;
+--light-gray: #ced4daff;
+--cadet-blue-crayola: #adb5bdff;
+--sonic-silver: #6c757dff;
+--davys-grey: #495057ff;
+--onyx: #343a40ff;
+--eerie-black: #212529ff;
+
+*/
+body {
+  background: linear-gradient(236.85deg, #252323 27.26%, #70798C 96.03%);
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* -------------- Header ---------------------------------------------------------- */
+.container {
+  background: #F5F1ED;
+  color: #1C1C1C;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #70798C;
+  margin: 64px;
+  padding: 64px;
+}
+
+.container-perfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacao-perfil {
+  display: flex;
+}
+
+.imagem-header {
+  border-radius: 100%;
+  max-height: 150px;
+  box-shadow: 8px 4px 4px #70798C;
+  margin-bottom: 1em;
+}
+
+.container-textos {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.titulo {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.sub-titulo {
+  font-weight: 400;
+  font-size: 1.7em;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #F5F1ED;
+  border-radius: 100px;
+  border: 1px solid #1C1C1C;
+}
+
+/* -------------- Main ---------------------------------------------------------- */
+.container-projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(230.65deg, #A99985 27.49%, #DAD2BC 83.19%);
+  border-radius: 20px;
+  padding: 64px;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8em;
+}
+
+.flex-div-start {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8em;
+}
+
+.titulo-main {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.7em;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.container-objeto {
+  line-height: 42px;
+}
+
+.container-text {
+  justify-content: flex-start;
+  margin: 1em;
+}
+
+/* ---------------------- Rodapé ------------------------------------ */
+.container-rodape {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 1em;
+}
+
+.container-icons {
+  margin: 1em;
+}
+
+.container-icons a {
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+/* ---------------------- Modo Dark -------------------------------- */
+.dark {
+  background: linear-gradient(236.85deg, #6c757dff 27.26%, #adb5bdff 96.03%);
+}
+
+.dark .imagem-header {
+  box-shadow: 4px 2px 2px #ced4daff;
+}
+
+.dark .container {
+  background: linear-gradient(230.65deg, #343a40ff 27.49%, #212529ff 83.19%);
+  color: #F6F6F6;
+}
+
+.dark .container-projetos {
+  background: #212529ff;
+  color: #F6F6F6;
+}
+
+.dark .tema button {
+  background-color: #212529ff;
+  color: #F6F6F6;
+  border: 1px solid #F7F7F7;
+}
